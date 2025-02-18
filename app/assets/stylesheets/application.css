@@ -13,3 +13,39 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.flash-message{
+  color:greenyellow;
+}
+
+.about-bookers {
+  line-height: 3;
+
+}
+
+.bookers {
+  font-weight: bold;
+}
+
+/* Index page */
+
+.error{
+  border: red;
+}
+
+.error-message{
+  background-color: red;
+  color:white
+}
+
+.error-ul{
+  background-color: gray;
+  text-align: center;
+  list-style: none;
+}

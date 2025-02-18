@@ -11,6 +11,11 @@
   </head>
 
   <body>
+    <main>
+      <p class="flash-message">
+      <%= flash[:notice]%>
+      </p>
     <%= yield %>
+    </main>
   </body>
 </html>
